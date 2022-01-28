@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var moduloa_1 = require("./moduloa");
+var moduloa_2 = require("./moduloa");
+var paquete = require("./moduloa");
+console.log(moduloa_1.nombre);
+var persona = new moduloa_2.Persona();
+persona.nombre = "Humberto";
+console.log(persona.nombre);
+console.log((0, moduloa_1.mostrar)());
+console.log(paquete.mostrar());
