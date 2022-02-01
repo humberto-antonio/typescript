@@ -1,0 +1,10 @@
+"use strict";
+let avenger = 5;
+let villano;
+let power;
+avenger = 'Texto';
+console.log(avenger.charAt(0));
+avenger = 5;
+console.log(avenger.toFixed(1));
+avenger = 'Otro texto';
+console.log(avenger.charAt(0));
