@@ -1,10 +1,8 @@
-var Persona = /** @class */ (function () {
-    function Persona() {
-    }
-    Persona.prototype.mostrar = function (dato) {
+"use strict";
+class Persona {
+    mostrar(dato) {
         return dato;
-    };
-    return Persona;
-}());
-var persona = new Persona();
+    }
+}
+const persona = new Persona();
 console.log(persona.mostrar("Humberto"));

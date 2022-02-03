@@ -1,11 +1,8 @@
 "use strict";
-exports.__esModule = true;
-var PersonaExportDefault = /** @class */ (function () {
-    function PersonaExportDefault() {
-    }
-    PersonaExportDefault.prototype.mostrar = function () {
+Object.defineProperty(exports, "__esModule", { value: true });
+class PersonaExportDefault {
+    mostrar() {
         console.log(this.nombre);
-    };
-    return PersonaExportDefault;
-}());
-exports["default"] = PersonaExportDefault;
+    }
+}
+exports.default = PersonaExportDefault;

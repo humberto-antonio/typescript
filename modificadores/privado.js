@@ -1,11 +1,11 @@
-var Animal2 = /** @class */ (function () {
-    function Animal2(nombre) {
+"use strict";
+class Animal2 {
+    constructor(nombre) {
         this.nombre = nombre;
     }
-    Animal2.prototype.getNombre = function () {
+    getNombre() {
         return this.nombre;
-    };
-    return Animal2;
-}());
-var animal2 = new Animal2("Perro");
-console.log("El animal es un ".concat(animal2.getNombre()));
+    }
+}
+const animal2 = new Animal2("Perro");
+console.log(`El animal es un ${animal2.getNombre()}`);

@@ -1,12 +1,9 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.mostrar = exports.Persona = exports.nombre = void 0;
 exports.nombre = "Humberto";
-var Persona = /** @class */ (function () {
-    function Persona() {
-    }
-    return Persona;
-}());
+class Persona {
+}
 exports.Persona = Persona;
-var mostrar = function () { return console.log("Mostrando"); };
+const mostrar = () => console.log("Mostrando");
 exports.mostrar = mostrar;

@@ -1,3 +1,4 @@
+"use strict";
 class SetGet {
     set setAtributo(atributo) {
         this.atributo = atributo;
